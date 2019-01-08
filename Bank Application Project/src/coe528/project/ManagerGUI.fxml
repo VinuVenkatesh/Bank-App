@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="278.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.ManagerGUIController">
+   <children>
+      <Text layoutX="96.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manager Account">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user" layoutX="134.0" layoutY="80.0" promptText="username">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <TextField fx:id="pass" layoutX="134.0" layoutY="139.0" promptText="password">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Button layoutX="38.0" layoutY="227.0" mnemonicParsing="false" onAction="#addingCustomer" text="Add Customer">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="308.0" layoutY="227.0" mnemonicParsing="false" onAction="#deletingCustomer" text="Delete Customer">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="354.0" layoutY="22.0" mnemonicParsing="false" onAction="#logout" text="Logout">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="error" alignment="CENTER" layoutX="40.0" layoutY="195.0" prefHeight="21.0" prefWidth="398.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="247.0" prefWidth="476.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coe528.project.LoginController">
+   <children>
+      <Text layoutX="70.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banking Application">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user" layoutX="137.0" layoutY="77.0" prefHeight="25.0" prefWidth="176.0" promptText="username">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="367.0" layoutY="189.0" mnemonicParsing="false" onAction="#loginClicked" prefHeight="37.0" prefWidth="95.0" text="Login">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="pass" layoutX="137.0" layoutY="124.0" prefHeight="31.0" prefWidth="176.0" promptText="password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="error" layoutX="105.0" layoutY="178.0" prefHeight="30.0" prefWidth="230.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
